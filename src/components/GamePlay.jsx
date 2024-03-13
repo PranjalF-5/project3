@@ -67,8 +67,9 @@ function GamePlay() {
 export default GamePlay;
 
 const MainContainer = styled.main`
-  padding: 20px;
+  padding: 10px;
   .top_section {
+    margin-top: 0 ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,6 +78,6 @@ const MainContainer = styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
   }
 `;

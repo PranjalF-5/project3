@@ -18,7 +18,7 @@ const ScoreContainer = styled.div`
 max-width: 200px;
 text-align: center;
     h1 {
-        font-size: 100px;
+        font-size: 55px;
        
     }
 

@@ -5,7 +5,7 @@ function RollDice({ rollDice, currentDice }) {
   return (
     <DiceContainer>
       <div className="Dice" onClick={rollDice}>
-        <img src={`/Images/dice_${currentDice}.png`} alt="dice 1" />
+        <img style={{height : '100px'}} src={`/Images/dice_${currentDice}.png`} alt="dice 1" />
       </div>
 
       <p>Click to Roll On the Dice</p>

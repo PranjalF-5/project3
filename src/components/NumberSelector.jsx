@@ -53,7 +53,7 @@ align-items: flex-end;
 }
 
 p {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 600;
     
 
@@ -64,12 +64,12 @@ p {
     
 `
 const Box = styled.div`
-    height: 72px;
-    width: 72px;
+    height: 48px;
+    width: 48px;
     border: 1px solid black;
     display: grid;
     place-items: center;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
     border-radius: 5px;
     background-color: ${(props) => (props.isSelected ? "black" : "white")};
